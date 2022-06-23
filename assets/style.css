@@ -31,12 +31,15 @@ nav {
     display: inline;
 }
 
-ul {
+nav ul {
     list-style-type: none;
 }
 
-li {
+nav ul li {
     display: inline;
+    border-right: 3px solid rgb(122, 71, 36);
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 a{
@@ -67,7 +70,8 @@ main {
 }
 
 .about-me img {
-    max-height: 300px;
+    margin-top: 55px;
+    max-height: 200px;
     margin-left: 20px;
 }
 
@@ -77,4 +81,135 @@ main {
     top: 150px;
     color: brown;
     font-size: 20px;
+}
+
+#work{
+    display: flex;
+    margin-top: 60px;
+}  
+
+#work h2 {
+    float: left;
+    margin:5px;
+    margin-top: 416px;
+    color: brown;
+    font-size: 40px;
+    padding-right: 10px;
+    border-right-style: solid; 
+    height: 60px;
+}
+
+#main-photo {
+    height: 400px;
+
+}
+#main-photo img{
+    margin-top: 60px;
+    margin-left: 45%;
+    border: 10px solid rgb(122, 71, 36);
+    position: relative;
+    width: 700px;
+    height: 400px;
+    flex: 1 1 50%;
+    display: block;
+}
+
+#main-photo p {
+    position: absolute; 
+    transform: translate(0, -50%); 
+    text-align: center; 
+    color: rgb(122, 71, 36); 
+    margin-left: 315px;
+    background-color: rgb(122, 71, 36);
+    border-style: solid;
+    border-color: rgb(122, 71, 36);;
+    border-width: 30px;
+    color: white;
+    font-size: 30px;
+
+}
+
+
+#gallery img {
+    margin-top: 500px;
+    margin-left: -450px;
+    border: 10px solid rgb(122, 71, 36);
+    position: relative;
+    width: 400px;
+    height: 300px;
+    display: block;
+}
+
+#gallery p {
+    position: absolute;
+    margin-left: -450px;
+    margin-top: 350px;
+}
+
+#coffee img{
+    margin-top: 500px;
+    margin-left: -30px;
+    border: 10px solid rgb(122, 71, 36);
+    position: relative;
+    width: 400px;
+    height: 300px;
+    flex: 1 1 50%;
+    display: block;
+}
+
+#coffee p {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 350px;
+}
+
+.photo img {
+    border: 1px solid rgb(122, 71, 36);
+    position: relative;
+    width: 480px;
+    display: block;
+    
+}
+
+div a p { 
+    top: 90%; 
+    transform: translate(0, -50%); 
+    text-align: center; 
+    color: rgb(122, 71, 36); 
+    background-color: rgb(122, 71, 36);
+    border-style: solid;
+    border-color: rgb(122, 71, 36);;
+    border-width: 14px;
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer h2 {
+float: left;
+margin:5px;
+color: brown;
+font-size: 40px;
+padding-right: 10px;
+border-right-style: solid; 
+height: 60px
+}
+
+
+footer ul {
+    margin-top: 25px;
+    margin-right: 20px;
+    float: left;
+    font-size: 20px;
+}
+
+footer ul li {
+    display: inline;
+    border-right: 1px solid rgb(122, 71, 36);
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 50px;
 }
