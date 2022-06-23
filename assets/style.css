@@ -1,15 +1,80 @@
 /*universal styling*/
-
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 /*body styling*/
-
 body{
-    background-color: lightblue
+    background-color: linen
 }
 
+/*header style*/
+header {
+    padding: 10px;
+    background-color: bisque;
+    color: brown;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 80px;
+}
+
+nav {
+    padding-top: 25px;
+    margin-right: 20px;
+    float: right;
+    font-size: 30px;
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.about-me {
+    display: flex;
+}
+.about-me h2{
+    float: left;
+    margin:5px;
+    position: relative;
+    top: 116px;
+    color: brown;
+    font-size: 40px;
+    padding-right: 10px;
+    border-right-style: solid; 
+    height: 100px;
+}
+
+.about-me img {
+    max-height: 300px;
+    margin-left: 20px;
+}
+
+.about-me p {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    color: brown;
+    font-size: 20px;
+}
